@@ -6,6 +6,7 @@ Created on Sat Jul 31 14:20:16 2021
 """
 import face_recognition
 import cv2
+import sys
 
 # 0 means the default camera
 webcam_video_stream = cv2.VideoCapture(0)
@@ -15,7 +16,7 @@ all_face_locations = []
 
 while True:
     #get current frame
-    ret,current_frame = webcam_video_stream.read()
+    ret, current_frame = webcam_video_stream.read()
     
     #resize the current frame to 1/4 size to proces paster
     current_frame_small = cv2.resize(current_frame,(0,0),fx=0.25,fy=0.25)
