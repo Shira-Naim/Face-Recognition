@@ -8,7 +8,7 @@ import face_recognition
 import cv2
 
 # loading image to detect
-image_to_detect = cv2.imread('C:/Users/shira/Face-Recognition/images/testing/trump-modi.jpg')
+image_to_detect = cv2.imread('some-directory/Face-Recognition/images/testing/trump-modi.jpg')
 
 # show the current image to detect
 # cv2.imshow("test", image_to_detect)
