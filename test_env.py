@@ -12,7 +12,7 @@ print(keras.__version__)
 print(tensorflow.__version__)
 
 # loading the image to detect
-image_test = cv2.imread('C:/Users/shira/Face-Recognition/images/testing/trump-modi.jpg')
+image_test = cv2.imread('some-directory/Face-Recognition/images/testing/trump-modi.jpg')
 
 # showing the current image with title
 cv2.imshow("Image", image_test)
