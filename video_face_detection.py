@@ -8,7 +8,7 @@ import face_recognition
 import cv2
 
 # 0 means the default camera
-webcam_video_stream = cv2.VideoCapture('C:/Users/shira/Face-Recognition/images/testing/modi.mp4')
+webcam_video_stream = cv2.VideoCapture('some-directory/Face-Recognition/images/testing/modi.mp4')
 
 #intialize empty array for face locations
 all_face_locations = []
